@@ -1,0 +1,29 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welocme to Quiz App</h1>
+    <p class="col-md-8 fs-4">This quiz will contains total 5 questions. Each Question holds 10 Points</p>
+    
+    <div>
+    
+        <img  src="https://elements-cover-images-0.imgix.net/790945c8-90f0-4ac9-b551-06fa26d4f597?auto=compress%2Cformat&fit=max&w=900&s=21c679857c8dc9aa65cfc280e0cd5dce" width="500" height="200"  alt="logo">
+        
+        
+    <h4>Rules:</h4>
+    <ol>
+        <li>Correct Question gives you 10 points</li>
+        <li>Incorrect question gives to -10 points</li>
+        <li>You will have 60 sec to answer each question</li>
+        <li>Refereshing the page will reset the Quiz</li>
+    </ol>
+        
+    
+        <label for="cars" >Please select user </label> <br><br>
+        <select name="cars" id="cars" style="width: 100px; height: 30px;" [(ngModel)]="selectedUser">
+            <option >user1</option>
+            <option>user2</option>
+            <option >user3</option>
+        </select>
+        <br><br>
+    <div *ngIf="selectedUser"> 
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+</div>
+</div> 

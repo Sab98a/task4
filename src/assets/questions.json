@@ -1,0 +1,105 @@
+
+
+
+{
+
+    "user": [  
+        { "id": 1, "name": "user1"},
+        { "id": 2, "name": "user2"},
+        { "id": 3, "name": "user3"}
+
+    ],
+
+    "questions": [{
+            "questionText": "Which of these elements in HTML can be used for making a text bold?",
+            "options": [{
+                    "text": "<b>",
+                    "correct": true
+                },
+                {
+                    "text": "<pre>"
+                },
+                {
+                    "text": "<a>"
+                },
+                {
+                    "text": "<br>"
+                }
+            ],
+            "explanation": " <b> element can be used for making a text bold in HTML"
+        },
+        {
+            "questionText": "Which tag do we use in HTML for inserting a line-break?",
+            "options": [{
+                    "text": "<pre>"
+                },
+                {
+                    "text": "<a>"
+                },
+                {
+                    "text": "<b>"
+                },
+                {
+                    "text": "<br>",
+                    "correct": true
+                }
+            ],
+            "explanation": "<br> tag can be used for for inserting a line-break in HTML"
+        },
+        {
+            "questionText": "How to create a hyperlink in HTML?",
+            "options": [{
+                    "text": "<a> www.thinkandlearn.com <thinkandlearn.com /a>"
+                },
+                {
+                    "text": "<a href = “www.thinkandlearn.com”> thinkandlearn.com </a>",
+                    "correct": true
+                },
+                {
+                    "text": "<a link = “www.thinkandlearn.com”> thinkandlearn.com </a>"
+                },
+                {
+                    "text": "<a url = “www.thinkandlearn.com” thinkandlearn.com /a>"
+                }
+            ],
+            "explanation": "we can create a hyperlink in HTML like <a href = “www.thinkandlearn.com”> thinkandlearn.com </a> "
+        },
+        {
+            "questionText": "In HTML, how do we insert an image?",
+            "options": [{
+                    "text": "<img href = “jtp.png” />"
+                },
+                {
+                    "text": "<img src = “jtp.png” />",
+                    "correct": true
+                },
+                {
+                    "text": "<img link = “jtp.png” />"
+                },
+                {
+                    "text": "<img url = “jtp.png” />"
+                }
+            ],
+            "explanation": "In HTML, we can insert an image by using this tag <img src = “jtp.png” /> "
+        },
+        {
+            "questionText": "Which tag do we use to define the options present in the drop-down selection lists?",
+            "options": [{
+                    "text": "<option>",
+                    "correct": true
+                },
+                {
+                    "text": "<list>"
+                },
+                {
+                    "text": "<dropdown>"
+                },
+                {
+                    "text": "<select>"
+                }
+            ],
+            "explanation": "<option> tag can be used to define the options present in the drop-down selection lists"
+        }
+        
+    ]
+}
